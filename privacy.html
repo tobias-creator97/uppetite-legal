@@ -25,7 +25,7 @@
 </head>
 <body>
     <h1>Datenschutzerklarung</h1>
-    <p class="date">Stand: 11. Februar 2026</p>
+    <p class="date">Stand: 15. Februar 2026</p>
 
     <h2>1. Verantwortlicher</h2>
     <p>
@@ -81,14 +81,32 @@
         <li>Google verarbeitet diese Daten gemaess der <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Datenschutzrichtlinie</a>.</li>
     </ul>
 
+    <h2>2.5 Anonyme Nutzungsanalyse (Analytics)</h2>
+    <ul>
+        <li>Uppetite verwendet <strong>Firebase Analytics</strong>, um anonymisierte Nutzungsdaten zu erfassen (z.B. welche Funktionen genutzt werden, Rezeptgenerierungen, Kochmodus-Nutzung).</li>
+        <li>Diese Daten werden <strong>nicht mit deiner Person verknuepft</strong> und enthalten keine personenbezogenen Informationen.</li>
+        <li>Zweck: Verbesserung der App-Funktionen und des Nutzererlebnisses.</li>
+        <li>Rechtsgrundlage: Deine Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).</li>
+        <li><strong>Du kannst Analytics jederzeit in den App-Einstellungen unter "Datenschutz" deaktivieren.</strong> Die Deaktivierung hat keinen Einfluss auf die Nutzung der App.</li>
+        <li>Google verarbeitet diese Daten gemaess der <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Datenschutzrichtlinie</a>.</li>
+    </ul>
+
+    <h2>2.6 Anonyme Authentifizierung</h2>
+    <ul>
+        <li>Uppetite erstellt beim ersten Start automatisch ein <strong>anonymes Benutzerkonto</strong> ueber <strong>Supabase</strong>. Dieses Konto enthaelt keine personenbezogenen Daten (kein Name, keine E-Mail-Adresse).</li>
+        <li>Zweck: Sichere API-Kommunikation, Rate-Limiting und Abonnement-Verwaltung.</li>
+        <li>Es wird lediglich eine <strong>zufaellige User-ID</strong> gespeichert, die keiner realen Person zugeordnet werden kann.</li>
+        <li>Supabase verarbeitet diese Daten gemaess der <a href="https://supabase.com/privacy" target="_blank">Supabase Datenschutzrichtlinie</a>.</li>
+    </ul>
+
     <h2>3. Welche Daten werden NICHT erhoben?</h2>
     <ul>
-        <li>Keine Benutzerkonten oder Registrierung erforderlich</li>
-        <li>Kein Tracking oder Analytics</li>
+        <li>Keine manuelle Registrierung oder Anmeldung erforderlich</li>
         <li>Keine Werbung oder Werbe-IDs</li>
+        <li>Kein Tracking ueber Apps oder Webseiten hinweg</li>
         <li>Keine Standortdaten</li>
         <li>Keine Kontakte oder Adressbuch-Zugriff</li>
-        <li>Keine Weitergabe an Dritte (ausser Google Gemini API und RevenueCat wie oben beschrieben)</li>
+        <li>Keine Weitergabe an Dritte (ausser den unter Abschnitt 4 genannten Diensten)</li>
     </ul>
 
     <h2>4. Drittanbieter</h2>
@@ -96,15 +114,18 @@
         <li><strong>Google Gemini API:</strong> Zutatenerkennung und Rezeptgenerierung. <a href="https://policies.google.com/privacy" target="_blank">Datenschutz</a></li>
         <li><strong>RevenueCat:</strong> Abonnement-Verwaltung. <a href="https://www.revenuecat.com/privacy" target="_blank">Datenschutz</a></li>
         <li><strong>Firebase Crashlytics:</strong> Anonymisierte Crash-Berichte. <a href="https://firebase.google.com/support/privacy" target="_blank">Datenschutz</a></li>
+        <li><strong>Firebase Analytics:</strong> Anonymisierte Nutzungsanalyse (nur mit Einwilligung). <a href="https://firebase.google.com/support/privacy" target="_blank">Datenschutz</a></li>
+        <li><strong>Supabase:</strong> Anonyme Authentifizierung und API-Verwaltung. <a href="https://supabase.com/privacy" target="_blank">Datenschutz</a></li>
         <li><strong>Apple:</strong> In-App Purchase Abwicklung. <a href="https://www.apple.com/legal/privacy/" target="_blank">Datenschutz</a></li>
     </ul>
 
-    <h2>5. Deine Rechte</h2>
-    <p>Da alle Daten lokal auf deinem Gerat gespeichert werden, hast du jederzeit volle Kontrolle:</p>
+    <h2>5. Deine Rechte (DSGVO Art. 15-21)</h2>
+    <p>Du hast jederzeit volle Kontrolle ueber deine Daten:</p>
     <ul>
-        <li><strong>Loeschen:</strong> Deinstalliere die App, um alle lokalen Daten zu entfernen.</li>
+        <li><strong>Loeschen:</strong> Nutze "Account loeschen" in den App-Einstellungen, um alle lokalen und serverseitigen Daten zu entfernen. Alternativ deinstalliere die App, um alle lokalen Daten zu loeschen.</li>
         <li><strong>Einsicht:</strong> Alle Daten sind direkt in der App einsehbar (Favoriten, Historie, Einstellungen).</li>
-        <li><strong>Abonnement kundigen:</strong> Uber die Apple-Einstellungen &rarr; Abonnements.</li>
+        <li><strong>Widerruf der Einwilligung:</strong> Analytics kann jederzeit in den App-Einstellungen unter "Datenschutz" deaktiviert werden (Art. 7 Abs. 3 DSGVO).</li>
+        <li><strong>Abonnement kuendigen:</strong> Ueber die Apple-Einstellungen &rarr; Abonnements.</li>
     </ul>
 
     <h2>6. Mindestalter</h2>
